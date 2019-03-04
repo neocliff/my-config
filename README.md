@@ -1,2 +1,2 @@
 # my-config
-collected settings for os and applications
+This is a repository for my collected settings for macOS, Linux, and Windows, and assorted applications.
