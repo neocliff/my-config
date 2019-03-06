@@ -4,6 +4,7 @@
 # vm's use for reverse engineering binaries.
 
 sudo apt-get install -y gcc
+sudo apt-get install -y cmake
 sudo apt-get install -y tmux
 sudo apt-get install -y ssh
 sudo apt-get install -y git
