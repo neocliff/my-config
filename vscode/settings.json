@@ -1,0 +1,9 @@
+{
+    "files.autoSave": "off",
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "blink",
+    "telemetry.enableTelemetry": false,
+    "workbench.colorTheme": "Abyss"
+}
