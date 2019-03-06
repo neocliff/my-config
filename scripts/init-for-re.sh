@@ -6,6 +6,7 @@
 sudo apt-get install -y gcc r++
 sudo apt-get -y nasm
 sudo apt-get install -y cmake
+sudo apt-get install -y python3-pip
 sudo apt-get install -y tmux
 sudo apt-get install -y ssh
 sudo apt-get install -y git
