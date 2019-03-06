@@ -8,4 +8,6 @@ for Microsoft's VS Code.
 User settings for VS Code are stored in the file
 "~/.config/Code/User/settings.json".
 
-- settings.json - a default set of settings
+- settings.json - a default set of settings that are rather
+  vanilla. i may come up with project-specific files later
+  on.
