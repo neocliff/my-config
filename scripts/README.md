@@ -10,3 +10,5 @@ Useful scripts to automate boring things!
 	at least not yet).
 - make-key-pair.sh - quick script to use ssh-keygen to make
 	a new private keypair and then add it to ssh-agent.
+- switch-to-kde-plasma.sh - install the KDE Plasma display manager
+	on Ubuntu systems (replaces Gnome)
