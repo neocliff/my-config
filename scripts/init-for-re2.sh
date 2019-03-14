@@ -8,6 +8,8 @@ sudo apt-get install -y gcc g++
 sudo apt-get -y nasm
 sudo apt-get install -y cmake
 sudo apt-get install -y python3-pip
+sudo apt-get install -y pylint
+sudo apt-get install -y build-essential
 
 # we are always going to be making virtual machines for things
 sudo apt-get install -y virtualbox-qt
