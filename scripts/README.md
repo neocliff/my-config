@@ -8,6 +8,8 @@ Useful scripts to automate boring things!
 	Udemy's class "Reverse Engineering and Exploit Development".
 	note that this does not download the various toolsets (or
 	at least not yet).
+- init-for-re2.sh - this is another script for initializing an
+	Ubuntu-ish system with packages useful for re activities.
 - make-key-pair.sh - quick script to use ssh-keygen to make
 	a new private keypair and then add it to ssh-agent.
 - switch-to-kde-plasma.sh - install the KDE Plasma display manager
