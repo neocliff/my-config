@@ -5,7 +5,6 @@
 
 # install programming languages support
 sudo apt-get install -y gcc g++
-sudo apt-get -y nasm
 sudo apt-get install -y cmake
 sudo apt-get install -y python3-pip
 sudo apt-get install -y pylint
@@ -26,7 +25,7 @@ sudo apt-get install -y wine-stable
 sudo apt-get install -y zzuf
 
 # install OpenJDK 11 JDK
-sudo apt-get install openjdk-11-jdk
+#sudo apt-get install openjdk-11-jdk
 
 # do a final update/upgrade
 sudo apt update
