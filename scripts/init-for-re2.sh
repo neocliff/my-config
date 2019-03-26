@@ -12,6 +12,7 @@ sudo apt install -y cmake
 sudo apt install -y python-pip
 sudo apt install -y python3-pip
 sudo apt install -y pylint
+sudo apt install -y git
 
 # we are always going to be making virtual machines for things
 echo "installing virtualization and containerization features..."
@@ -42,11 +43,11 @@ sudo apt install -y zzuf
 # grab some other tools
 echo "grabbing and installing the \'elfparser\' tools...."
 wget http://elfparser.com/release/elfparser_x86_64_1.4.0.deb --output-document=./elfparser_x86_64_1.4.0.deb
-sudo dpkg -i ./elfparser_x86_64_1.4.0.dev
+sudo dpkg -i ./elfparser_x86_64_1.4.0.deb
 wget http://elfparser.com/release/elfparser_i686_1.4.0.deb --output-document=./elfparser_i686_1.4.0.deb
-sudo dpkg -i ./elfparser_i686_1.4.0.dev
+sudo dpkg -i ./elfparser_i686_1.4.0.deb
 wget http://elfparser.com/release/elfparser-cli_i686_1.4.0.deb --output-document=./elfparser-cli_i686_1.4.0.deb
-sudo dpkg -i ./elfparser-cli_i686_1.4.0.dev
+sudo dpkg -i ./elfparser-cli_i686_1.4.0.deb
 
 # install OpenJDK 11 JDK. note that this only gets you JDK 11 on an
 # ubuntu 18.10 system. if you do this on an ubuntu 18.04 system you
