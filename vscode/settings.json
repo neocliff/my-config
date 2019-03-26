@@ -5,5 +5,7 @@
     "editor.cursorStyle": "line",
     "editor.cursorBlinking": "blink",
     "telemetry.enableTelemetry": false,
-    "workbench.colorTheme": "Abyss"
+    "workbench.colorTheme": "Abyss",
+    "gitlens.advanced.telemetry.enabled": false,
+    "telemetry.enableCrashReporter": false
 }
