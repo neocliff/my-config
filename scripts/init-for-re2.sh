@@ -51,12 +51,15 @@ sudo dpkg -i ./elfparser_x86_64_1.4.0.deb
 #wget http://elfparser.com/release/elfparser-cli_i686_1.4.0.deb --output-document=./elfparser-cli_i686_1.4.0.deb
 #sudo dpkg -i ./elfparser-cli_i686_1.4.0.deb
 
-# install Microsoft's VS Code
-echo "installing vs vode..."
+# install Microsoft's VS Code and extensions. you have to download vs code
+# and install it using dpkg. once you do that, you use 'code --install-extension'
+# and the name of the extension (in 'publisher.extension' format) in install
+# the extensions. the only way to install from a file appears to be if the
+# extension is packaged as a 'vsix' file and that isn't the format you get them
+# in from web-servers.
+echo "installing vs vode and some useful extensions..."
 wget https://update.code.visualstudio.com/1.32.3/linux-deb-x64/stable --output-document=./code-stable.deb
 sudo dpkg -i ./code-stable.deb
-
-echo "downloading and installing extensions..."
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-python.python
 code --install-extension vscjava.vscode-java-debug
@@ -73,6 +76,10 @@ code --install-extension mhutchie.git-graph
 code --install-extension eamodio.gitlens
 code --install-extension vscodevim.vim
 code --install-extension VisualStudioExptTeam.vscodeintellicode
+
+# we could update the default vi installation with the latest
+# vim install. well, we can if the latest version has been built.
+sudo apt install vim
 
 # how about the Sublime text exitor?
 echo "installing Sublime text editor..."
