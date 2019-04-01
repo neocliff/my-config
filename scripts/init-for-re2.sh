@@ -51,6 +51,29 @@ sudo dpkg -i ./elfparser_x86_64_1.4.0.deb
 #wget http://elfparser.com/release/elfparser-cli_i686_1.4.0.deb --output-document=./elfparser-cli_i686_1.4.0.deb
 #sudo dpkg -i ./elfparser-cli_i686_1.4.0.deb
 
+# install Microsoft's VS Code
+echo "installing vs vode..."
+wget https://update.code.visualstudio.com/1.32.3/linux-deb-x64/stable --output-document=./code-stable.deb
+sudo dpkg -i ./code-stable.deb
+
+echo "downloading and installing extensions..."
+code --install-extension ms-vscode.cpptools
+code --install-extension ms-python.python
+code --install-extension vscjava.vscode-java-debug
+code --install-extension vscjava.vscode-java-dependency
+code --install-extension vscjava.vscode-java-pack
+code --install-extension vscjava.vscode-java-test
+code --install-extension redhat.java
+code --install-extension vscjava.vscode-maven
+code --install-extension twxs.cmake
+code --install-extension go2sh.cmake-integration-vscode
+code --install-extension vector-of-bool.cmake-tools
+code --install-extension maddouri.cmake-tools-helper
+code --install-extension mhutchie.git-graph
+code --install-extension eamodio.gitlens
+code --install-extension vscodevim.vim
+code --install-extension VisualStudioExptTeam.vscodeintellicode
+
 # how about the Sublime text exitor?
 echo "installing Sublime text editor..."
 sudo wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
