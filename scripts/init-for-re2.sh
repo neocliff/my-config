@@ -40,14 +40,23 @@ sudo apt install -y wine-stable
 echo "installing the fuzzers..."
 sudo apt install -y zzuf
 
-# grab some other tools
+# install elfparser, a gui-based tool for examining/editing ELF binaries.
+# note i assume you are wanting the x86_64 version. if you want the x86
+# version, comment out the x86_64 versions and uncomment the i686 packages.
 echo "grabbing and installing the \'elfparser\' tools...."
 wget http://elfparser.com/release/elfparser_x86_64_1.4.0.deb --output-document=./elfparser_x86_64_1.4.0.deb
 sudo dpkg -i ./elfparser_x86_64_1.4.0.deb
-wget http://elfparser.com/release/elfparser_i686_1.4.0.deb --output-document=./elfparser_i686_1.4.0.deb
-sudo dpkg -i ./elfparser_i686_1.4.0.deb
-wget http://elfparser.com/release/elfparser-cli_i686_1.4.0.deb --output-document=./elfparser-cli_i686_1.4.0.deb
-sudo dpkg -i ./elfparser-cli_i686_1.4.0.deb
+#wget http://elfparser.com/release/elfparser_i686_1.4.0.deb --output-document=./elfparser_i686_1.4.0.deb
+#sudo dpkg -i ./elfparser_i686_1.4.0.deb
+#wget http://elfparser.com/release/elfparser-cli_i686_1.4.0.deb --output-document=./elfparser-cli_i686_1.4.0.deb
+#sudo dpkg -i ./elfparser-cli_i686_1.4.0.deb
+
+# how about the Sublime text exitor?
+echo "installing Sublime text editor..."
+sudo wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+sudo echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+sudo apt-get update
+sudo apt-get install sublime-text
 
 # install OpenJDK 11 JDK. note that this only gets you JDK 11 on an
 # ubuntu 18.10 system. if you do this on an ubuntu 18.04 system you
