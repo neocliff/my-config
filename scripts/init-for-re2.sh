@@ -81,6 +81,11 @@ code --install-extension VisualStudioExptTeam.vscodeintellicode
 # vim install. well, we can if the latest version has been built.
 sudo apt install vim
 
+# or you can build it from source. to do so, uncomment the following
+# to get the tar ball. then go through the 'unzip' and 'tar xvf'
+# and read the readme files on building and installing it.
+# wget https://ftp.nluug.nl/pub/vim/unix/vim-8.1.tar.bz2 --output-document=./vim-8.1.tar.bz2
+
 # how about the Sublime text exitor?
 echo "installing Sublime text editor..."
 sudo wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
