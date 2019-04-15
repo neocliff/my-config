@@ -51,7 +51,8 @@ sudo dpkg -i ./elfparser_x86_64_1.4.0.deb
 #wget http://elfparser.com/release/elfparser-cli_i686_1.4.0.deb --output-document=./elfparser-cli_i686_1.4.0.deb
 #sudo dpkg -i ./elfparser-cli_i686_1.4.0.deb
 
-# install VirtualBox
+# install VirtualBox - note the link is for VBox on an Ubuntu 18.04/10-based system. you
+# will have to edit the download link if you are using another Linux distrobution.
 wget https://download.virtualbox.org/virtualbox/6.0.4/virtualbox-6.0_6.0.4-128413~Ubuntu~bionic_amd64.deb
 sudo dpkg -i ./virtualbox-6.0_6.0.4-128413~Ubuntu~bionic_amd64.deb
 
