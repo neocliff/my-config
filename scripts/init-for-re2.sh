@@ -51,13 +51,17 @@ sudo dpkg -i ./elfparser_x86_64_1.4.0.deb
 #wget http://elfparser.com/release/elfparser-cli_i686_1.4.0.deb --output-document=./elfparser-cli_i686_1.4.0.deb
 #sudo dpkg -i ./elfparser-cli_i686_1.4.0.deb
 
+# install VirtualBox
+wget https://download.virtualbox.org/virtualbox/6.0.4/virtualbox-6.0_6.0.4-128413~Ubuntu~bionic_amd64.deb
+sudo dpkg -i ./virtualbox-6.0_6.0.4-128413~Ubuntu~bionic_amd64.deb
+
 # install Microsoft's VS Code and extensions. you have to download vs code
 # and install it using dpkg. once you do that, you use 'code --install-extension'
 # and the name of the extension (in 'publisher.extension' format) in install
 # the extensions. the only way to install from a file appears to be if the
 # extension is packaged as a 'vsix' file and that isn't the format you get them
 # in from web-servers.
-echo "installing vs vode and some useful extensions..."
+echo "installing vs code and some useful extensions..."
 wget https://update.code.visualstudio.com/1.32.3/linux-deb-x64/stable --output-document=./code-stable.deb
 sudo dpkg -i ./code-stable.deb
 code --install-extension ms-vscode.cpptools
