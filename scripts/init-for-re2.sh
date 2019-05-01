@@ -16,6 +16,7 @@ sudo apt install -y git
 
 # we are always going to be making virtual machines for things
 echo "installing virtualization and containerization features..."
+wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 sudo apt install -y virtualbox-qt
 sudo apt install -y qemu
 sudo apt install docker.io
