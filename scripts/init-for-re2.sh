@@ -13,6 +13,7 @@ sudo apt install -y python-pip
 sudo apt install -y python3-pip
 sudo apt install -y pylint
 sudo apt install -y git
+sudo apt install -y gdb
 
 # we are always going to be making virtual machines for things
 echo "installing virtualization and containerization features..."
