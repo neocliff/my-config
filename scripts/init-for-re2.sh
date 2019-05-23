@@ -20,7 +20,7 @@ echo "installing virtualization and containerization features..."
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 sudo apt install -y virtualbox-qt
 sudo apt install -y qemu
-sudo apt install docker.io
+sudo apt install -y docker.io
 
 # tmux is a terminal multiplexer; much nicer than 47 terminal windows
 echo "installing tmux..."
@@ -86,7 +86,7 @@ code --install-extension VisualStudioExptTeam.vscodeintellicode
 
 # we could update the default vi installation with the latest
 # vim install. well, we can if the latest version has been built.
-sudo apt install vim
+sudo apt install -y vim
 
 # or you can build it from source. to do so, uncomment the following
 # to get the tar ball. then go through the 'unzip' and 'tar xvf'
@@ -98,7 +98,7 @@ echo "installing Sublime text editor..."
 sudo wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 sudo echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
 sudo apt-get update
-sudo apt-get install sublime-text
+sudo apt-get install -y sublime-text
 
 # install OpenJDK 11 JDK. note that this only gets you JDK 11 on an
 # ubuntu 18.10 system. if you do this on an ubuntu 18.04 system you
