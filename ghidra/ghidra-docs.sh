@@ -54,9 +54,13 @@ echo "  MIPS..."
 wget https://s3-eu-west-1.amazonaws.com/downloads-mips/documents/MD00076-2B-MIPS1632-AFP-02.63.pdf -O $ghidra_dir/Ghidra/Processors/MIPS/data/manuals/MD00076-2B-MIPS1632-AFP-02.63.pdf
 # 404 not found: wget https://s3-eu-west-1.amazonaws.com/downloads-mips/documents/MD00087-2B-MIPS64BIS-AFP-6.03.pdf -O $ghidra_dir/Ghidra/Processors/MIPS/data/manuals/MD00087-2B-MIPS64BIS-AFP-06.03.pdf
 wget https://s3-eu-west-1.amazonaws.com/downloads-mips/documents/MD000594-2B-microMIPS64-AFP-06.02.pdf -O $ghidra_dir/Ghidra/Processors/MIPS/data/manuals/MD000594-2B-microMIPS64-AFP-06.02.pdf
+wget https://s3-eu-west-1.amazonaws.com/downloads-mips/documents/MD00594-2B-microMIPS64-AFP-6.05.pdf -O $ghidra_dir/Ghidra/Processors/MIPS/data/manuals/MD00594-2B-microMIPS64-AFP-6.05.pdf 
 # .idx doesn't align: wget https://github.com/f47h3r/firmware_reversing/raw/master/docs/research/MD00582-2B-microMIPS32-AFP-05.03.pdf -O $ghidra_dir/Ghidra/Processors/MIPS/data/manuals/MD00582-2B0microMIPS32-AFP-05.03.pdf
 wget https://groups.csail.mit.edu/cag/raw/documents/R4400_Uman_book_Ed2.pdf -O $ghidra_dir/Ghidra/Processors/MIPS/data/manuals/r4000.pdf
 
+wget https://s3-eu-west-1.amazonaws.com/downloads-mips/documents/MD00087-2B-MIPS64BIS-AFP-6.06.pdf -O $ghidra_dir/Ghidra/Processors/MIPS/data/manuals/MD00087-2B-MIPS64BIS-AFP-6.06.pdf
+wget https://s3-eu-west-1.amazonaws.com/downloads-mips/documents/MIPS_Architecture_microMIPS32_InstructionSet_AFP_P_MD00582_06.04.pdf -O $ghidra_dir/Ghidra/Processors/MIPS/data/manuals/MIPS_Architecture_microMIPS32_InstructionSet_AFP_P_MD00582_06.04.pdf
+wget https://groups.csail.mit.edu/cag/raw/documents/R4400_Uman_book_Ed2.pdf -O $ghidra_dir/Ghidra/Processors/MIPS/data/manuals/r4000.pdf
 
 # PA-RISC
 echo "  PA-RISC..."
