@@ -34,7 +34,7 @@ wget https://www.keil.com/dd/docs/datashts/intel/8xc251sx_um.pdf -O $ghidra_dir/
 # AARCH64: no .idx file
 
 # ARM
-ehco "  ARM processors..."
+echo "  ARM processors..."
 wget https://www.cs.utexas.edu/~simon/378/resources/ARMv7-AR_TRM.pdf -O $ghidra_dir/Ghidra/Processors/ARM/data/manuals/Armv7AR_errata.pdf 
 
 # Atmel
