@@ -1,0 +1,24 @@
+1. What is your idea job?
+
+2. What tools have you used?
+	- IDE?
+	- Languages?
+	- OS?
+	- Virtualization (containers, VMs, etc.):
+		- Docker? Podman? LXC/LXD?
+		- Kubernetes?
+		- Something else?
+	- CI/CD (GitLab CI, Jenkins)?
+
+3. The resume says you do Agile? What does it mean and why do it?
+   What tools have you used (GitLab, JIRA, Confluence)?
+
+4. Specifically for Python, which libraries have you used and why?
+
+5. If you get stuck with a problem in design or in code, what are the
+   first three things you are going to do? Why?
+
+6. Have you done any language translation (e.g., compiler, M&S from/to)?
+
+7. Have you done anything with formal methods? Have you used any provers?
+
